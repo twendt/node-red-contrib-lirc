@@ -1,0 +1,14 @@
+{
+    "name"         : "node-red-contrib-lirc",
+    "version"      : "0.0.1",
+    "description"  : "A node for node-red to lirc requests",
+    "dependencies": {
+        "lirc-client" : "latest"
+    },
+    "keywords": [ "node-red" ],
+    "node-red"     : {
+        "nodes": {
+            "lirc-in": "lirc/lirc-in.js"
+        }
+    }
+}
